@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.0.40.0" MinimumVersion="19.0">
+  <ScanProfile>
+    <Collections type="list" />
+    <Scanners type="list">
+      <Scanner>
+        <ModifiedDate value="null" />
+        <Name>SMART - HDD</Name>
+        <Script></Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\SMART\SMART - ATA.ps1</FileName>
+        <Parameters>-DriveType "HDD" -IDs 1, 5, 7, 9, 10, 184, 187, 188, 196, 197, 198, 200, 201 -Verbose</Parameters>
+        <AdditionalFiles></AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="74" />
+      </Scanner>
+      <Scanner>
+        <ModifiedDate value="null" />
+        <Name>SMART - SSD</Name>
+        <Script></Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\SMART\SMART - ATA.ps1</FileName>
+        <Parameters>-DriveType "SSD" -IDs 1, 5, 7, 9, 10, 184, 187, 188, 196, 197, 198, 200, 201 -Verbose</Parameters>
+        <AdditionalFiles></AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="74" />
+      </Scanner>
+      <Scanner>
+        <ModifiedDate value="null" />
+        <Name>SMART - NVMe</Name>
+        <Script></Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\SMART\SMART - NVMe.ps1</FileName>
+        <Parameters>-Verbose</Parameters>
+        <AdditionalFiles></AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="74" />
+      </Scanner>
+      <Scanner>
+        <ModifiedDate value="null" />
+        <Name>SMART - Text</Name>
+        <Script></Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\SMART\SMART - Text.ps1</FileName>
+        <Parameters></Parameters>
+        <AdditionalFiles></AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="74" />
+      </Scanner>
+    </Scanners>
+    <Description>Retrieves SMART data from HDDs and SSDs.</Description>
+    <ScanProfileId value="46" />
+    <Name>PS - SMART</Name>
+    <ScheduleTriggerSet name="ScheduleTriggers">
+      <Triggers type="list" />
+    </ScheduleTriggerSet>
+  </ScanProfile>
+</AdminArsenal.Export>

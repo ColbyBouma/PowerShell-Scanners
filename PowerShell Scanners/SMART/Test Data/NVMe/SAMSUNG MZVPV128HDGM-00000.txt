@@ -1,0 +1,66 @@
+smartctl 6.5 2016-05-07 r4318 [NetBSD 7.99.29 amd64] (local build)
+Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       SAMSUNG MZVPV128HDGM-00000
+Serial Number:                      XXXXXXXXXXXXXX
+Firmware Version:                   BXW7300Q
+PCI Vendor/Subsystem ID:            0x144d
+IEEE OUI Identifier:                0x002538
+Controller ID:                      1
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
+Namespace 1 Formatted LBA Size:     512
+Local Time is:                      Wed May 18 01:17:27 2016 JST
+Firmware Updates (0x06):            3 Slots
+Optional Admin Commands (0x0007):   Security Format Frmw_DL
+Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Maximum Data Transfer Size:         32 Pages
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     9.00W       -        -    0  0  0  0        5       5
+ 1 +     4.60W       -        -    1  1  1  1       30      30
+ 2 +     3.80W       -        -    2  2  2  2      100     100
+ 3 -   0.0700W       -        -    3  3  3  3      500    5000
+ 4 -   0.0050W       -        -    4  4  4  4     2000   22000
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02, NSID 0xffffffff)
+Critical Warning:                   0x00
+Temperature:                        52 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    0%
+Data Units Read:                    904,815 [463 GB]
+Data Units Written:                 360,469 [184 GB]
+Host Read Commands:                 12,151,887
+Host Write Commands:                2,857,699
+Controller Busy Time:               15
+Power Cycles:                       421
+Power On Hours:                     559
+Unsafe Shutdowns:                   405
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      13
+
+Error Information (NVMe Log 0x01, max 64 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
+  0         13     0  0x0000  0x4210  0x000            0     0     -
+  1         12     0  0x0000  0x4202  0x000            0     0     -
+  2         11     0  0x000f  0x4016  0x000            0   124     -
+  3         10     0  0x000f  0x4016  0x000            0    91     -
+  4          9     0  0x000f  0x4016  0x000            0   169     -
+  5          8     0  0x000f  0x4016  0x000            0    91     -
+  6          7     0  0x000f  0x4016  0x000            0    83     -
+  7          6     0  0x000f  0x4016  0x000            0   129     -
+  8          5     0  0x000e  0x4016  0x000            0 1587901141     -
+  9          4     0  0x000f  0x4016  0x000            0    87     -
+ 10          3     0  0x000f  0x4016  0x000            0    82     -
+ 11          2     0       -  0x0000  0x000            0     0     -
+ 12          1     0       -  0x0000  0x000            0     0     -

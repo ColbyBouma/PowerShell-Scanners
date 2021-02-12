@@ -1,0 +1,13 @@
+Create smartmontools package.
+Finalize the pretty names.
+Research the HDD vs SSD raw names.
+Parse through drivedb.h for all attribute names and IDs.
+Add the NVMe values.
+    Figure out how to allow users to pick and choose since the attributes don't have numbers.
+Fill out the README.
+Finalize the Scan Profile.
+    Will Additional Files accept folders?
+    Split it into separate profiles, otherwise all scanners will run.
+Write Test.ps1 (run all JSON files through the scripts).
+Put the Functions in a module.
+Filter HDD and SSD, otherwise both drive types will show up.
